@@ -9,7 +9,7 @@ export type PyButtonProperties = Omit<
   label: string;
 };
 
-const PyButton: Component<PyButtonProperties> = ({
+export const PyButton: Component<PyButtonProperties> = ({
   children,
   label,
   ...rest
@@ -20,5 +20,3 @@ const PyButton: Component<PyButtonProperties> = ({
     </py-button>
   );
 };
-
-export default PyButton;

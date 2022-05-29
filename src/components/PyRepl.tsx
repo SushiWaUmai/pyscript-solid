@@ -9,7 +9,7 @@ export type PyReplProperties = Omit<
   children?: string;
 };
 
-const PyRepl: Component<PyReplProperties> = ({
+export const PyRepl: Component<PyReplProperties> = ({
   autoGenerate = false,
   children,
   ...rest
@@ -20,5 +20,3 @@ const PyRepl: Component<PyReplProperties> = ({
     </py-repl>
   );
 };
-
-export default PyRepl;

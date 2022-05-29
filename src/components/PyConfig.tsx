@@ -5,11 +5,9 @@ export type PyConfigProperties = Omit<JSX.HTMLAttributes<HTMLElement>, "children
   children: string;
 };
 
-const PyConfig: Component<PyConfigProperties> = ({
+export const PyConfig: Component<PyConfigProperties> = ({
   children,
   ...rest
 }: PyConfigProperties): JSX.Element => {
   return <py-config {...rest}>{children}</py-config>;
 };
-
-export default PyConfig;

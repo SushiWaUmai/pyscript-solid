@@ -10,7 +10,7 @@ export type PyRegisterWidgetProperties = Omit<
   pythonClass?: string;
 };
 
-const PyRegisterWidget: Component<PyRegisterWidgetProperties> = ({
+export const PyRegisterWidget: Component<PyRegisterWidgetProperties> = ({
   name,
   src,
   pythonClass,
@@ -23,5 +23,3 @@ const PyRegisterWidget: Component<PyRegisterWidgetProperties> = ({
     ></py-register-widget>
   );
 };
-
-export default PyRegisterWidget;

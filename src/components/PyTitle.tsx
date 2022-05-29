@@ -8,11 +8,9 @@ export type PyTitleProperties = Omit<
   children: string;
 };
 
-const PyTitle: Component<PyTitleProperties> = ({
+export const PyTitle: Component<PyTitleProperties> = ({
   children,
   ...rest
 }: PyTitleProperties): JSX.Element => {
   return <py-title {...rest}>{children}</py-title>;
 };
-
-export default PyTitle;

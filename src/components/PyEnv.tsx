@@ -8,15 +8,7 @@ export type PyEnvProperties = Omit<
   children: JSX.Element | [JSX.Element];
 };
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      "py-env": PyEnvProperties;
-    }
-  }
-}
-
-const PyEnv: Component<PyEnvProperties> = ({
+export const PyEnv: Component<PyEnvProperties> = ({
   children,
   ...rest
 }: PyEnvProperties): JSX.Element => {
@@ -31,5 +23,3 @@ const PyEnv: Component<PyEnvProperties> = ({
   });
   return <py-env {...rest}>{fixedChildren}</py-env>;
 };
-
-export default PyEnv;

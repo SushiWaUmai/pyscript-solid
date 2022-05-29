@@ -14,10 +14,8 @@ export type PyScriptProperties = Omit<
   src?: string;
 };
 
-const PyScript: Component<PyScriptProperties> = (
+export const PyScript: Component<PyScriptProperties> = (
   props: PyScriptProperties
 ): JSX.Element => {
   return <py-script {...props} />;
 };
-
-export default PyScript;
