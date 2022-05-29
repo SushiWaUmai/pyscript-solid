@@ -1,21 +1,13 @@
 {
   "name": "pyscript-solid",
-  "version": "0.0.0",
-  "description": "",
-  "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
+  "version": "0.0.1",
+  "main": "./src/index.tsx",
+  "repository": "https://github.com/SushiWaUmai/pyscript-solid.git",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.6.4",
-    "vite": "^2.9.9",
-    "vite-plugin-solid": "^2.2.6"
+    "typescript": "^4.6.4"
   },
   "dependencies": {
-    "solid-js": "^1.4.2",
-    "solid-meta": "^0.27.5"
+    "solid-js": "^1.4.2"
   }
 }
