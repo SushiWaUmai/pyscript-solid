@@ -1,6 +1,6 @@
 {
   "name": "pyscript-solid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./src/index.tsx",
   "repository": "https://github.com/SushiWaUmai/pyscript-solid.git",
   "license": "MIT",
