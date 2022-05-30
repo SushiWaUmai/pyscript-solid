@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/SushiWaUmai/pyscript-solid/compare/v1.0.1...v1.0.2) (2022-05-30)
+
+
+### Bug Fixes
+
+* :bug: make children in PyScript optional ([30910be](https://github.com/SushiWaUmai/pyscript-solid/commit/30910be1355699ecf7236f8b9a3e9516e8f62d45))
+
 ## [1.0.1](https://github.com/SushiWaUmai/pyscript-solid/compare/v1.0.0...v1.0.1) (2022-05-30)
 
 
