@@ -5,7 +5,7 @@ export type PyScriptProperties = Omit<
   JSX.HTMLAttributes<HTMLElement>,
   "children"
 > & {
-  children: string;
+  children?: string;
   output?: string;
   ["output-mode"]?: string;
   ["std-out"]?: string;
