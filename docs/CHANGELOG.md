@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/SushiWaUmai/pyscript-solid/compare/v1.0.0...v1.0.1) (2022-05-30)
+
+
+### Bug Fixes
+
+* :bug: build files before releasing to npm ([baf1262](https://github.com/SushiWaUmai/pyscript-solid/commit/baf126278668da088bfcaf5c5ff4e100f344265a))
+
 # 1.0.0 (2022-05-30)
 
 
