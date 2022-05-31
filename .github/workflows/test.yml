@@ -1,23 +1,15 @@
-name: Release
+name: Test
 
-on:
-  push:
-    branches: [main]
+on: [push, pull_request, workflow_call]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    steps:
-      - uses: ./.github/workflows/test.yml
-
-  release:
-    runs-on: ubuntu-latest
-    needs: [test]
 
     steps:
       - name: Get files
         uses: actions/checkout@v2
-
+      
       - name: Use Node.js
         uses: actions/setup-node@v2
 
@@ -36,9 +28,5 @@ jobs:
       - name: Install packages
         run: pnpm install
 
-      - name: Release Version
-        run: pnpm run release
-        env:
-          CI: true
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Test
+        run: pnpm run test

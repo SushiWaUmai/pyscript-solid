@@ -1,9 +1,20 @@
-import { defineConfig } from "vite";
+import { defineConfig } from "vitest/config";
 import path from "path";
 import solidPlugin from "vite-plugin-solid";
 import dts from "vite-plugin-dts";
 
 export default defineConfig({
+  test: {
+    environment: "jsdom",
+    transformMode: {
+      web: [/.[jt]sx?/],
+    },
+    deps: {
+      inline: [/solid-js/],
+    },
+    threads: false,
+    isolate: false,
+  },
   plugins: [solidPlugin(), dts({ insertTypesEntry: true })],
   build: {
     lib: {
