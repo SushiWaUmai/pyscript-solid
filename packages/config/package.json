@@ -1,0 +1,24 @@
+{
+  "name": "@pyscript-solid/config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "ts/base.json",
+    "lint/eslintrc.json",
+    "lint/prettierrc.json",
+    "versioning/releaserc.json"
+  ],
+  "scripts": {
+    "release": "semantic-release -e semantic-release-monorepo"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "semantic-release": "^19.0.2",
+    "semantic-release-monorepo": "^7.0.5"
+  }
+}
