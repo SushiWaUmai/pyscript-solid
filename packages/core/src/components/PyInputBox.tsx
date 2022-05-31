@@ -8,9 +8,8 @@ export type PyInputBoxProperties = Omit<
   children: string;
 };
 
-export const PyInputBox: Component<PyInputBoxProperties> = ({
-  children,
-  ...rest
-}: PyInputBoxProperties): JSX.Element => {
-  return <py-inputbox {...rest}>{children}</py-inputbox>;
+export const PyInputBox: Component<PyInputBoxProperties> = (
+  props: PyInputBoxProperties,
+): JSX.Element => {
+  return <py-inputbox {...props} />;
 };

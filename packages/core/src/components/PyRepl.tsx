@@ -9,14 +9,8 @@ export type PyReplProperties = Omit<
   children?: string;
 };
 
-export const PyRepl: Component<PyReplProperties> = ({
-  autoGenerate = false,
-  children,
-  ...rest
-}: PyReplProperties): JSX.Element => {
-  return (
-    <py-repl {...rest} auto-generate={autoGenerate}>
-      {children}
-    </py-repl>
-  );
+export const PyRepl: Component<PyReplProperties> = (
+  props: PyReplProperties,
+): JSX.Element => {
+  return <py-repl {...props} />;
 };

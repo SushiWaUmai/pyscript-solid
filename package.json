@@ -5,9 +5,10 @@
   "license": "MIT",
   "scripts": {
     "build": "turbo run build",
-    "prepare": "husky install",
+    "dev": "turbo run dev",
     "release": "turbo run release && semantic-release",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",

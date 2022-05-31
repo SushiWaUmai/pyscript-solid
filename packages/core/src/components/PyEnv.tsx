@@ -1,4 +1,4 @@
-import { Component, createMemo } from "solid-js";
+import { Component } from "solid-js";
 import type { JSX } from "solid-js";
 
 export type PyEnvProperties = Omit<
@@ -8,18 +8,8 @@ export type PyEnvProperties = Omit<
   children: JSX.Element | [JSX.Element];
 };
 
-export const PyEnv: Component<PyEnvProperties> = ({
-  children,
-  ...rest
-}: PyEnvProperties): JSX.Element => {
-  const fixedChildren = createMemo(() => {
-    return Array.isArray(children)
-      ? children
-          .map((element): string => {
-            return `- ${element}`;
-          })
-          .join("\n")
-      : children;
-  });
-  return <py-env {...rest}>{fixedChildren}</py-env>;
+export const PyEnv: Component<PyEnvProperties> = (
+  props: PyEnvProperties,
+): JSX.Element => {
+  return <py-env {...props} />;
 };

@@ -10,16 +10,8 @@ export type PyRegisterWidgetProperties = Omit<
   pythonClass?: string;
 };
 
-export const PyRegisterWidget: Component<PyRegisterWidgetProperties> = ({
-  name,
-  src,
-  pythonClass,
-}: PyRegisterWidgetProperties): JSX.Element => {
-  return (
-    <py-register-widget
-      src={src}
-      name={name}
-      pythonClass={pythonClass}
-    ></py-register-widget>
-  );
+export const PyRegisterWidget: Component<PyRegisterWidgetProperties> = (
+  props: PyRegisterWidgetProperties,
+): JSX.Element => {
+  return <py-register-widget {...props} />;
 };

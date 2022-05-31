@@ -9,14 +9,8 @@ export type PyButtonProperties = Omit<
   label: string;
 };
 
-export const PyButton: Component<PyButtonProperties> = ({
-  children,
-  label,
-  ...rest
-}: PyButtonProperties): JSX.Element => {
-  return (
-    <py-button {...rest} label={label}>
-      {children}
-    </py-button>
-  );
+export const PyButton: Component<PyButtonProperties> = (
+  props: PyButtonProperties,
+): JSX.Element => {
+  return <py-button {...props} />;
 };
