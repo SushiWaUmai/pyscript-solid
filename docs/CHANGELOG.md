@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/SushiWaUmai/pyscript-solid/compare/v1.0.2...v1.1.0) (2022-05-31)
+
+
+### Bug Fixes
+
+* :bug: make commmit-msg executable ([466c41c](https://github.com/SushiWaUmai/pyscript-solid/commit/466c41cb5e67b20612822c8df9091a9261a1cc63))
+* :bug: release workflow to call test properly ([cc2db54](https://github.com/SushiWaUmai/pyscript-solid/commit/cc2db5461c2d60f985ca869f8948a9aa51aac269))
+* :fire: remove reusable workflows ([15e47db](https://github.com/SushiWaUmai/pyscript-solid/commit/15e47dba179364fcbdddd876acc840d2b587114f))
+
+
+### Features
+
+* :sparkles: add testing workflow ([b659aad](https://github.com/SushiWaUmai/pyscript-solid/commit/b659aadf92892757de7b4fcc00fb535b1713442b))
+
 ## [1.0.2](https://github.com/SushiWaUmai/pyscript-solid/compare/v1.0.1...v1.0.2) (2022-05-30)
 
 
