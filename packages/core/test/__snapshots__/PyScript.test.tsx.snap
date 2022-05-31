@@ -1,7 +1,7 @@
 // Vitest Snapshot v1
 
-exports[`<PyScript /> > has attributes 1`] = `"<py-script></py-script>"`;
+exports[`<PyScript /> > has attributes 1`] = `"<py-script src="test.py"></py-script>"`;
 
-exports[`<PyScript /> > has children 1`] = `"<py-script></py-script>"`;
+exports[`<PyScript /> > has children 1`] = `"<py-script>print(\\"Hello World!\\")</py-script>"`;
 
 exports[`<PyScript /> > renders 1`] = `"<py-script></py-script>"`;
