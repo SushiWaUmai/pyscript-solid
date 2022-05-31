@@ -1,0 +1,46 @@
+{
+  "name": "pyscript-solid",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SushiWaUmai/pyscript-solid.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "release": "semantic-release -e semantic-release-monorepo",
+    "build": "vite build",
+    "dev": "vitest",
+    "test": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@pyscript-solid/config": "workspace:*",
+    "@types/node": "^17.0.36",
+    "babel-preset-solid": "^1.4.2",
+    "c8": "^7.11.3",
+    "husky": "^8.0.1",
+    "jsdom": "^19.0.0",
+    "semantic-release": "^19.0.2",
+    "semantic-release-monorepo": "^7.0.5",
+    "solid-testing-library": "^0.3.0",
+    "typescript": "^4.7.2",
+    "vite": "^2.9.9",
+    "vite-plugin-dts": "^1.2.0",
+    "vite-plugin-solid": "^2.2.6",
+    "vitest": "^0.13.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.4.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/pyscript-solid.umd.js",
+  "module": "./dist/pyscript-solid.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/pyscript-solid.es.js",
+      "require": "./dist/pyscript-solid.umd.js"
+    }
+  }
+}
