@@ -1,3 +1,10 @@
+# [pyscript-solid-v1.0.2](https://github.com/SushiWaUmai/pyscript-solid/compare/pyscript-solid-v1.0.1...pyscript-solid-v1.0.2) (2022-06-01)
+
+
+### Bug Fixes
+
+* :bookmark: push 1.2 tag on core module ([ccc5faa](https://github.com/SushiWaUmai/pyscript-solid/commit/ccc5faa01e43fc10e9e7734094f9b1d16d9b2fb3))
+
 # [pyscript-solid-v1.0.1](https://github.com/SushiWaUmai/pyscript-solid/compare/pyscript-solid-v1.0.0...pyscript-solid-v1.0.1) (2022-06-01)
 
 
