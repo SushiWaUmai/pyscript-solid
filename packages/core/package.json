@@ -10,7 +10,8 @@
     "release": "semantic-release -e semantic-release-monorepo",
     "build": "vite build",
     "dev": "vitest",
-    "test": "vitest run --coverage"
+    "test": "vitest run --coverage",
+    "lint": "eslint --fix"
   },
   "devDependencies": {
     "@pyscript-solid/config": "workspace:*",
@@ -25,6 +26,7 @@
     "typescript": "^4.7.2",
     "vite": "^2.9.9",
     "vite-plugin-dts": "^1.2.0",
+    "vite-plugin-eslint": "^1.6.1",
     "vite-plugin-solid": "^2.2.6",
     "vitest": "^0.13.0"
   },
