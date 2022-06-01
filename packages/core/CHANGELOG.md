@@ -1,3 +1,10 @@
+# [pyscript-solid-v1.0.1](https://github.com/SushiWaUmai/pyscript-solid/compare/pyscript-solid-v1.0.0...pyscript-solid-v1.0.1) (2022-06-01)
+
+
+### Bug Fixes
+
+* :bookmark: update core module version ([de111ed](https://github.com/SushiWaUmai/pyscript-solid/commit/de111ed33106c70d85d4bbbfc159a92620705b4b))
+
 # pyscript-solid-v1.0.0 (2022-06-01)
 
 
