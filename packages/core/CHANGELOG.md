@@ -1,3 +1,10 @@
+# [pyscript-solid-v1.4.0](https://github.com/SushiWaUmai/pyscript-solid/compare/pyscript-solid-v1.3.0...pyscript-solid-v1.4.0) (2022-06-01)
+
+
+### Features
+
+* :sparkles: add pyscript provider ([0f8b811](https://github.com/SushiWaUmai/pyscript-solid/commit/0f8b811984171f5ec16ab743d3954efbd978853f))
+
 # [pyscript-solid-v1.3.0](https://github.com/SushiWaUmai/pyscript-solid/compare/pyscript-solid-v1.2.0...pyscript-solid-v1.3.0) (2022-06-01)
 
 
