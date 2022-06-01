@@ -6,4 +6,5 @@ export * from "./PyInputBox";
 export * from "./PyRegisterWidget";
 export * from "./PyRepl";
 export * from "./PyScript";
+export * from "./PyScriptProvider";
 export * from "./PyTitle";
