@@ -1,3 +1,24 @@
+# [1.2.0](https://github.com/SushiWaUmai/pyscript-solid/compare/v1.1.0...v1.2.0) (2022-06-01)
+
+
+### Bug Fixes
+
+* :ambulance: build before releasing ([bec7863](https://github.com/SushiWaUmai/pyscript-solid/commit/bec78639771f6d28ec742b9a3fce1a5a5f554d2d))
+* :art: update eslint files ([0d90f93](https://github.com/SushiWaUmai/pyscript-solid/commit/0d90f939c262d669959677e2ac404b0d9a622eee))
+* :bookmark: push 1.2 tag on core module ([ccc5faa](https://github.com/SushiWaUmai/pyscript-solid/commit/ccc5faa01e43fc10e9e7734094f9b1d16d9b2fb3))
+* :bookmark: update core module version ([de111ed](https://github.com/SushiWaUmai/pyscript-solid/commit/de111ed33106c70d85d4bbbfc159a92620705b4b))
+* :bug: update pnpm lock file ([5058908](https://github.com/SushiWaUmai/pyscript-solid/commit/50589081c59ccd35ab3d29c1d8059b2318597aee))
+* :bug: update releaserc to right url ([558ff8e](https://github.com/SushiWaUmai/pyscript-solid/commit/558ff8ec2e65ece2e40ce4ecbde79992bd5933d2))
+* :bug: update test snapshot ([d552c08](https://github.com/SushiWaUmai/pyscript-solid/commit/d552c083c77430d9b0ca369b703035bfc70a63c8))
+
+
+### Features
+
+* :sparkles: add filepath example and update core module for better performance ([9be1216](https://github.com/SushiWaUmai/pyscript-solid/commit/9be1216cf7e120beab08c16f28251e96a0fb9516))
+* :sparkles: add linting using eslint ([779da36](https://github.com/SushiWaUmai/pyscript-solid/commit/779da36013fc4592386c9aaa450d0eab58f645cf))
+* :sparkles: add semantic release for root ([d284974](https://github.com/SushiWaUmai/pyscript-solid/commit/d2849742b79ff4977c53f77f1477a0bdad85700e))
+* :sparkles: convert project to monorepo: ([a5fb9d9](https://github.com/SushiWaUmai/pyscript-solid/commit/a5fb9d9d646cbf24fcfdbacb3f78d2ada77a19a9))
+
 # [1.1.0](https://github.com/SushiWaUmai/pyscript-solid/compare/v1.0.2...v1.1.0) (2022-05-31)
 
 
