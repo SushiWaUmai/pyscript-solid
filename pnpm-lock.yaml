@@ -24,6 +24,23 @@ importers:
       semantic-release-monorepo: 7.0.5_semantic-release@19.0.2
       turbo: 1.2.14
 
+  examples/file-path:
+    specifiers:
+      '@pyscript-solid/config': workspace:*
+      pyscript-solid: workspace:*
+      solid-js: ^1.4.2
+      typescript: ^4.6.4
+      vite: ^2.9.9
+      vite-plugin-solid: ^2.2.6
+    dependencies:
+      pyscript-solid: link:../../packages/core
+      solid-js: 1.4.3
+    devDependencies:
+      '@pyscript-solid/config': link:../../packages/config
+      typescript: 4.7.2
+      vite: 2.9.9
+      vite-plugin-solid: 2.2.6
+
   examples/hello-world:
     specifiers:
       '@pyscript-solid/config': workspace:*

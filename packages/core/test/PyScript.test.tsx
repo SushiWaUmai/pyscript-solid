@@ -10,7 +10,9 @@ describe("<PyScript />", () => {
   });
 
   test("has attributes", () => {
-    const { unmount, container } = render(() => <PyScript src="test.py" />);
+    const { unmount, container } = render(() => (
+      <PyScript src="test.py" class="test-class" />
+    ));
     expect(container.innerHTML).toMatchSnapshot();
     unmount();
   });
