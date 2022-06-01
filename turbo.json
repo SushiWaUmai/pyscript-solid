@@ -14,6 +14,7 @@
       "outputs": ["dist/**", ".next/**"]
     },
     "release": {
+      "dependsOn": ["build"],
       "cache": false,
       "outputs": []
     }
