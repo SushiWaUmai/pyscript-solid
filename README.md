@@ -4,14 +4,14 @@ Use [PyScript](https://pyscript.net/) together with [Solid.js](https://www.solid
 ## Getting Started
 
 ### Installation
-Install pyscript-solidjs using npm:
+Install pyscript-solid using npm:
 
 ```
-npm install pyscript-solidjs
+npm install pyscript-solid
 # or
-yarn add pyscript-solidjs
+yarn add pyscript-solid
 # or
-pnpm install pyscript-solidjs
+pnpm install pyscript-solid
 ```
 
 ### Usage
