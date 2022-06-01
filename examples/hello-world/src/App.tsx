@@ -1,8 +1,12 @@
 import type { Component } from "solid-js";
-import { PyScript } from "pyscript-solid";
+import { PyScript, PyScriptProvider } from "pyscript-solid";
 
 const App: Component = () => {
-  return <PyScript>print("Hello World")</PyScript>;
+  return (
+    <PyScriptProvider>
+      <PyScript>print("Hello World")</PyScript>
+    </PyScriptProvider>
+  );
 };
 
 export default App;
