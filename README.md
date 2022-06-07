@@ -1,4 +1,7 @@
 # PyScript Solid
+[![npm](https://img.shields.io/npm/v/pyscript-solid?style=flat-square)](https://www.npmjs.com/package/pyscript-solid)
+[![License](https://shields.io/github/license/SushiWaUmai/pyscript-solid?style=flat-square)](https://github.com/SushiWaUmai/pyscript-solid/blob/main/LICENSE)
+
 Use [PyScript](https://pyscript.net/) together with [Solid.js](https://www.solidjs.com/).
 
 ## Getting Started
@@ -23,16 +26,16 @@ import { PyScript, PyScriptProvider } from "pyscript-solid";
 
 const App: Component = () => {
   return (
-    <PyScriptProvider>
-      <PyScript>print("Hello World")</PyScript>
-    </PyScriptProvider>
+	<PyScriptProvider>
+	  <PyScript>print("Hello World")</PyScript>
+	</PyScriptProvider>
   );
 };
 
 export default App;
 ```
 
-You can find more examples under the [`examples`](./examples) directory.
+You can find more examples under the [`examples`](https://github.com/SushiWaUmai/pyscript-solid/tree/main/examples) directory.
 
 ## License
-This library is lilcensed under the [MIT license](./LICENSE).
+This library is lilcensed under the [MIT license](https://github.com/SushiWaUmai/pyscript-solid/blob/main/LICENSE).
